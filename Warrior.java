@@ -39,8 +39,4 @@ public class Warrior extends Character {
     public int getRage() {
         return rage;
     }
-
-    public void cleave() {
-        System.out.println(name + " melakukan Cleave Attack (Area Damage)!");
-    }
 }

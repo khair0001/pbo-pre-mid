@@ -36,13 +36,4 @@ class Mage extends Character {
     public int getIntelligence() {
         return intelligence;
     }
-
-    // public void healSelf() {
-    //     if (mana >= 30) {
-    //         int healAmount = 40;
-    //         hp = Math.min(hp + healAmount, maxHp);
-    //         mana -= 30;
-    //         System.out.println(name + " menyembuhkan diri! +" + healAmount + " HP");
-    //     }
-    // }
 }

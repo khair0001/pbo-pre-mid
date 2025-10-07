@@ -37,8 +37,4 @@ public class Archer extends Character {
     public int getCritChance() {
         return critChance;
     }
-
-    public void multiShot() {
-        System.out.println(name + " melepaskan Multiple Arrows ke 3 target berbeda!");
-    }
 }
